@@ -46,6 +46,7 @@ Let's just deploy mongo and our knote application first to our cluster:
 Now run `kubectl port-forward service/knote 8000:8080`
 (Assuming nothing else is running on port 8080)
 8. In your browser, go to [http://localhost:8000/knote](http://localhost:8000/knote)
+9. if your `kubectl proxy` still running, you can also visit [http://localhost:8001/api/v1/namespaces/default/services/knote/proxy/knote](http://localhost:8001/api/v1/namespaces/default/services/knote/proxy/knote) for same results
 
 # Clean up
 
