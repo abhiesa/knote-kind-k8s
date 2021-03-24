@@ -53,7 +53,7 @@ You can honeslty just run `kind delete cluster` and it'll delete the default clu
 
 # Accreditation
 
-* https://learnk8s.io/spring-boot-kubernetes-guide
-* https://github.com/imorti/kind-dashboard-setup
+* [learnk8s](https://learnk8s.io/spring-boot-kubernetes-guide)
+* [imorti](https://github.com/imorti/kind-dashboard-setup)
 
 Enjoy!
