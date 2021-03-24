@@ -51,4 +51,9 @@ Now run `kubectl port-forward service/knote 8000:8080`
 
 You can honeslty just run `kind delete cluster` and it'll delete the default cluster by the name of `kind`. If you gave your cluster a name just run `kind delete cluster --name <name of cluster>`.
 
+# Accreditation
+
+* https://learnk8s.io/spring-boot-kubernetes-guide
+* https://github.com/imorti/kind-dashboard-setup
+
 Enjoy!
